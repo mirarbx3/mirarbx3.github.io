@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.logo{
+    width: 40%;
+    margin: 40px auto;
+}
+.about, .block-wrap{
+    display: flex;
+align-items: center;
+flex-wrap: wrap-reverse;
+}
+.block{
+    width: 200px; ;
+    flex-grow: 1;
+    padding: 15px;
+    text-align: center;
+}
+.text,  .image{
+    width: 300px;
+    flex-grow: 1;
+    padding: 30px;
+}
+.minecraft{
+    background: linear-gradient(to bottom, white, blue, aqua);
+    padding: 70px 30px;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+.roblox{
+    background: linear-gradient(to bottom, white,violet,pink);
+    padding: 70px 30px;
+}
+ 
+.need{
+    background: linear-gradient(to bottom,pink, darkmagenta, grey);
+    padding: 70px 30px;
+}
