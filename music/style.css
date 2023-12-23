@@ -1,0 +1,52 @@
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(background.png);
+    border-top: 5px solid rgb(255, 115, 0);
+    border-bottom: 5px solid rgb(255, 115, 0);
+}
+.popular, .classic{
+    width: 300px;
+    flex-grow: 1;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+img{
+    width: 100%;
+}
+.row-2, .row-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.photo, .text{
+    width: 300px;
+    flex-grow: 1;
+    padding: 20px; 
+}
+.logo{
+    width: 150px;
+    margin-left: 100px;
+}
+button{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    border: 0;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 900px;
+    box-shadow: 0 2px m20px rgb(255, 115, 0);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.v{
+    padding-left: 80px;
+    margin-top: 70px;
+}
