@@ -1,0 +1,144 @@
+img{
+    width:100% ;
+}
+.logo-img{
+    width: 150px;
+}
+.logo-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.7em;
+}
+header{
+    box-shadow: 0px 5px 10px #C493FFki;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    background-color: rgb(196, 182, 241);
+    padding: 15px;
+    flex-wrap: 2;
+    width: 200px;
+}
+li{
+  background-color: rgb(244, 243, 247);  
+  margin: 5px;
+  padding: 10px;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.text-right{
+    border-left: 3px solid rgb(132, 0, 255);
+    margin-left: 15px;
+    padding-left: 7px;
+
+}
+ .right{
+background-color: rgb(235, 210, 240);
+padding: 15px;
+flex-grow: 10;
+width: 400px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-1{
+    background-image: url(img/pizza1.jpg);
+}
+.pizza{
+    width: 165px;
+    height: 128px;
+    color: antiquewhite;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    margin: 15px;
+}
+.item-2{
+    background-image: url(img/pizza2.jpg);
+}
+.item-3{
+    background-image: url(img/pizza3.jpg);
+}
+.item-4{
+    background-image: url(img/pizza4.jpg);
+}
+.item-5{
+    background-image: url(img/pizza5.jpg);
+}
+.item-6{
+    background-image: url(img/pizza6.jpg);
+}
+.item-7{
+    background-image: url(img/pizza7.jpg);
+}
+.item-8{
+    background-image: url(img/pizza8.jpg);
+}  
+.item-9{
+    background-image: url(img/pizza9.jpg);
+}
+.pizza-father{
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{
+    background-color: rgb(132, 0, 255);
+    border-radius: 50%;
+padding: 10px;
+}
+.our-priciples{
+    background-color: rgb(219, 187, 235);
+    padding: 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.big-img, .big-text{
+width: 300px;
+flex-grow: 1;
+padding: 20px 15px;
+}
+
+body{
+    margin: 0;
+}
+.big-img>img{
+    border-radius: 10px;
+}
+a{
+    color: beige;
+    font-size: 2em;
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(174, 138, 208);
+    padding: 20px;
+    color: beige;
+}
+.insta:hover{
+color: orange;
+}
+.tiktok:hover{
+    color:rgb(228, 230, 143)   
+}
+.Youtube:hover{
+    color:rgb(193, 58, 58)   
+}
+.facebook:hover{
+    color: rgb(112, 181, 218);
+}
+.telegram:hover{
+    color: aquamarine;
+}
+.pinterest:hover{
+    color: rgb(198, 85, 108);
+}
