@@ -1,0 +1,31 @@
+.navbar{
+    background: linear-gradient( to right, #a39fcd, #fbfbfb, #2a00Ff);
+}
+img{
+    width: 100%;
+}
+.fon-1{
+    background-image:  linear-gradient( to bottom, #86baff, #fbfbfb);
+    padding: 100px 0;
+    text-align: center;
+}
+.my-card-1 img{
+    width: 30%;
+}
+.my-card-1{
+    padding: 20px;
+}
+.wwww{
+    width: 70%;
+}
+ul{
+    list-style-image: url(list-img.png);
+}
+.blue{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    margin: 70px auto;
+    background: linear-gradient( to right, #7398ed, #1d67e8);
+
+}
