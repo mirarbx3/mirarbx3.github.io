@@ -1,0 +1,21 @@
+.oclock{
+    margin: 0;
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(img/day2.jpg);
+}
+.p-hour{
+    font-size: 4em;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+.p-day{
+    font-size:2em;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    margin: 0;
+}
