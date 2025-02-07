@@ -1,0 +1,47 @@
+.game {
+    background-image: url(t-rex-background.png) ;
+    height: 200px;
+    animation: fon-move 2s infinite linear;
+}
+@keyframes fon-move {
+0% { background-position: 100%;}
+100% { background-position: 0;}
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.dino{
+    background-image:  url(dinozavr.gif);
+    height: 50px;
+    background-size: auto 50px;
+    height: 50px;
+    width: 40px;
+    background-size: 40px 50px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.cuctus{
+    height: 50px;
+    width: 30px;
+    background-size: 30px 50px;
+background-image: url(cactus.png);
+position: relative;
+top:100px;
+left: 200px;
+animation:  move 2s infinite linear;
+}
+ @keyframes move{
+0%{left: 101%;}
+100%{left: 0;}
+ }
+ @keyframes up{
+    0%{top:150px}
+    50%{top: 70px;}
+    100%{top:150px;}
+    
+     }
+     .jump{
+        animation:  up 0.6s linear;
+     }
