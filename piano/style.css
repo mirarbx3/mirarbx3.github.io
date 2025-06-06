@@ -1,0 +1,105 @@
+img {
+    width: 100%;
+}
+
+.text-grey {
+    font-family: "Great Vibes", cursive;
+    font-family: "EB Garamond", serif;
+    font-family: "Merriweather", serif;
+    font-family: "Zen Old Mincho", serif;
+    font-family: "Source Serif 4", serif;
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-wrap {
+    height: 70vh;
+}
+
+.bg-facts-1 {
+    background-color: #171717;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.bg-facts-2 {
+    background-color: #dedede;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.bg-facts-1 h4 {
+    text-align: center;
+}
+
+.bg-facts-2 h4 {
+    text-align: center;
+}
+
+
+/* ---- */
+.div-Top {
+
+    animation: top-move 1s infinite alternate;
+}
+
+@keyframes top-move {
+    0% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom: 10px;
+    }
+}
+
+
+.btn-Top {
+    /*дів */
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    padding: 5px;
+    animation: top-arrow 1s infinite alternate;
+}
+
+.link-top {
+    /*стрілочка */
+    font-size: 2em;
+    color: #8a8a8a;
+
+}
+
+.btn-Top:hover {
+    /* text-shadow: 0px 0px 10px black; */
+    animation-play-state: paused;
+    color: #151515;
+
+}
+
+@keyframes top-arrow {
+    0% {
+        bottom: 25px;
+    }
+
+    100% {
+        bottom: 15px;
+    }
+}
+
+/* ----- */

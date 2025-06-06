@@ -1,0 +1,46 @@
+.coffee-item{
+    background-color: #5a4020;
+    position: relative;
+    overflow: hidden;
+
+}
+.p-title{
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid #9a9a9a;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.coffee-item .btn-details{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    left: 0;
+    margin: auto;
+    background-color: #4b453c;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.btn-details:hover{
+    background-color: #746555;
+
+}
+.about-coffee{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffffb7;
+    padding: 10px;
+    transition: 0.5s;
+    overflow-y: auto;
+    color: black;
+}
